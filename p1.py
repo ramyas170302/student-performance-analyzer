@@ -57,7 +57,7 @@ print("At Risk:",risk["Student_ID"].count(),"Students")
 
 top=final.iloc[0]
 print("topper:",top["Student_ID"],"(",top["Final Exam Marks (out of 100)"],")")
-low=final.iloc[2000-1]
+low=final.iloc[-1]
 
 print("Lowest:",low["Student_ID"],"(",low["Final Exam Marks (out of 100)"],")")
 
